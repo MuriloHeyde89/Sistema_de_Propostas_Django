@@ -2,7 +2,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
-from proposta.core.models import Cliente, Proposta
+from web_project.core.models import Cliente, Proposta
 
 
 # Proposta
