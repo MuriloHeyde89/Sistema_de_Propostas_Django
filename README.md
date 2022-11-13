@@ -1,39 +1,19 @@
-# Criação de um Sistema de Propostas com Django
+# proposta
+SISTEMA DE PROPOSTA EM DJANGO 3
 
-Criação de um Sistema de Propostas usando o Framework Django
+1 - clone o repositório
 
+2 - instale o  requirements.txt
+	python -m pip install -r  requirements.txt
 
-## Lista de Tarefas
+3 - python3 manage.py makemigrations core
 
-[x] Instalar bibliotecas (listadas nas ferramentas);
+4 - python3 manage.py migrate
 
-[x] ;
+5 - python3 manage.py runserver
 
-[x] ;
-
-
-## Ferramentas usadas no Projeto
-
-[x] GitHub
-[x] Django - 
-[x] VsCode
-[x] Python
+6 - acesse o site
+	localhost:8000/admin
 
 
-## Uso da aplicação
-
-Através da xxxxx, conforme  podemos ver abaixo:
-
-Visual inicial:
-
-
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/MuriloHeyde89/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murilo-heyde/)
-
-
-## Autor
-
-- [@MuriloHeyde89](https://github.com/MuriloHeyde89)
+Obrigado a todos espero que goste!!
