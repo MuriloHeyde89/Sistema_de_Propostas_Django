@@ -5,9 +5,9 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 from django.views.generic.base import TemplateView
+from rest_framework.urlpatterns import format_suffix_patterns
+
 from . import views
-
-
 
 urlpatterns = [
 	path('proposta/<int:id>/', views.proposta, name='proposta'),
