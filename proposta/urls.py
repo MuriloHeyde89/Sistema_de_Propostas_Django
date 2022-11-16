@@ -7,13 +7,13 @@ from django.conf import settings
 from . import views
 from rest_framework.urlpatterns import format_suffix_patterns
 from django.conf.urls import include
-from django.urls import re_path
+from django.urls import re_path as path
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
-    re_path('proposta/<int:id>/', views.proposta, name='proposta'), 
-    re_path('admin/', admin.site.urls),
+    path('proposta/<int:id>/', views.proposta, name='proposta'), 
+    path('admin/', admin.site.urls),
     ]
 
 if settings.DEBUG:
