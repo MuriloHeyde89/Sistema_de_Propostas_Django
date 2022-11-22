@@ -25,13 +25,16 @@ Criação de um Sistema de Proposta através do Framework Django
 
 Através do framework Django, será totalmente utilizavel a seu Sistema de Proposta com preenchimentos de dados automatizados, conforme  podemos ver abaixo:
 
-Visual inicial:
+Visual inicial:![tela preenchimento proposta](https://user-images.githubusercontent.com/115501310/203337823-b23f6957-e4cd-4df6-8cb7-b17a76d50bfe.JPG)
 
 
-Tela de criação de proposta:
+
+Tela de criação de proposta:![tela demonstrando propostas salvas](https://user-images.githubusercontent.com/115501310/203337867-08ba0c41-f970-4521-9af0-7da218b5afad.JPG)
 
 
-Tela do contrato preenchido com os dados alimentados:
+
+Tela do contrato preenchido com os dados alimentados:![contrato emitido](https://user-images.githubusercontent.com/115501310/203337907-6cfebf37-2e33-4f53-9006-bc269341d6b7.JPG)
+
 
 
 
