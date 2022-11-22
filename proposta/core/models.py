@@ -41,10 +41,6 @@ class Proposta(models.Model):
 	situacao = models.CharField(u'Situação', max_length=200, choices = CATEGORY_CHOICES)
 	pago = models.BooleanField(default=False)
 
-	dominio = models.CharField(u'Dominio do Site', blank=True, max_length=200, help_text='URL - exe: seudominio.com.br')
-	dominio_loguin = models.CharField(u'Acesso ao Admin', max_length=200, blank=True, help_text='URL - exe: seudominio.com.br/admin')
-	loguin = models.CharField(u'Loguin', max_length=30, blank=True)
-	senha = models.CharField(u'Senha', max_length=30, blank=True)
 
 	def imprimir(self):
 			return mark_safe("""<a href=\"/proposta/%s/\" target="_blank"><img src=\"/static/images/b_print.png\"></a>""" % self.id)
