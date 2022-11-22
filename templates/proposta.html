@@ -15,15 +15,15 @@
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12">
                 <div class="img-logo">
-                    <img src="{% static 'images/logo-escritorio.png' %}" alt="">
+                    <img src="{% static 'images/logo.png' %}" alt="">
                 </div>
             </div>
             <div class="col-lg-10 col-md-10 col-sm-12">
         <div class="topo center">
             <h3><strong>CONTRATO DE PRESTAÇÃO DE SERVIÇO DE ASSESSORIA JURIDICA</strong></h3>
-            <h4>MURILO HEYDE ASSESSORIA JURÍDICA - OAB/RS 97.756 OA/PT 33.356</h4>
+            <h4>MURILO HEYDE ASSESSORIA JURÍDICA - OAB/RS 97.756 OA/PT 33.356L</h4>
             <p>Rua:  - Bairro:  - Fone:  <br>
-            Site: www.seudominio.com.br / Email: contato@seudominio.com.br  
+            Site: www.muriloheydeassessoria.com.br / Email: contato@seudominio.com.br  
             <br>Cidade - Estado</p>
 
       </div>
@@ -69,48 +69,21 @@ As atividades inclusas na prestação de serviço objeto deste instrumento são 
  <strong>III - DAS DESPESAS</strong><br>
 
  
-Ficará sobre responsabilidade da CONTRATANTE, a entrega de todo o material necessário para execução dos trabalhos ora tais como: <br>
+ Todas as despesas efetuadas pelo CONTRATADO, ligadas direta ou indiretamente com o processo, incluindo-se fotocópias, emolumentos, viagens, custas, entre outros, ficarão a cargo da CONTRATANTE.<br>
+Todas as despesas serão acompanhadas de recibo, devidamente preparado e assinado pelo CONTRATADO.<br>
  <p class="espaco">
-- Fotos e imagens a serem adicionadas nas páginas;<br>
-- Textos descritivos;<br>
-- Logotipo.<br>
-- Vídeos <br>
- </p>
-O CONTRATANTE deverá efetuar corretamente os pagamentos à CONTRATADA, segundo item V.
+  <hr>
+<strong>IV - DA COBRANÇA</strong><br>
+
+
+As partes acordam que facultará ao CONTRATADO, o direito de realizar a cobrança dos honorários por todos os meios admitidos em direito.<br>
  <hr>
-<strong>IV - DA MANUTENÇÃO DOS SERVIÇOS</strong><br>
+ <strong>V - DOS HONORÁRIOS</strong><br>
 
-A CONTRATADA através da manutenção dos serviços, sendo Preventivo e/ou Corretivo, manterá o “SITE” em condições de navegabilidade, efetuando os necessários ajustes, configurações e reparos visuais.<br>
- 
-1º. somente os técnicos da CONTRATADA poderão executar serviços técnicos preventivos e ou corretivos, a que se refere esta cláusula.<br>
+Pelos serviços prestados, o CONTRATADO receberá a título de honorários contratados o percentual fixo de 30% sobre o proveito econômico obtido ao final da demananda, mais o valor de:<br>
+- Valor: <b>R$ {{proposta_base.valor}}</b> <br>  
 
-2º.  As manutenções dos serviços aqui contratados não incluem: <br>
-<p class="espaco">
-- Os serviços adicionais aos mencionados neste contrato;<br>
-- Elaboração e construção de bancos de dados extras;<br>
-- Produção de fotos;<br>
-- Produção de vídeos;<br>
-</p>
-
-3º.  A CONTRATADA se compromete a cadastrar o "SITE" do CONTRATANTE nos principais "SITES" de busca nacionais e internacionais.<br>
-  
-4º. A CONTRATADA, se compromete a hospedagem de 6 meses (seis meses) de hospedagem grátis, a pois o termino dos 6 meses.<br>
-Será cobrado o valor da hospedagem da seguinte forma que o cliente desejar.<br>
-<p class="espaco">
-<b>Mensal</b> de R$ 50,00 (Setenta reais)<br>
-<b>Trimensal</b> de R$ 150,00 - (Duzentos e dez reais)<br>
-<b>Semestral</b> de R$ 300,00 - (Quatrocentos e vinte reais)<br>
-<b>Anual</b> de R$ 600,00 - (Oitocentos e quarenta reais)<br>
-</p>  
-A pois a escolha DA CONTRATADA, a respeito do pagamento do servidor, será atualizado no banco de dados, para que o mesmo seja efetuado automaticamente 05 dias úteis antes do vencimento.<br>
-
- <hr>
- <strong>V - PREÇO E FORMA DE PAGAMENTO</strong><br>
-
-Para os serviços de construção, manutenção e inclusão do “SITE”, objeto deste contrato, ora estipulado terá um custo no valor de:<br>
-- Construção: <b>R$ {{proposta_base.valor}}</b> <br>  
-
-- Uma vez que a CONTRATADA cumpra todos os requisitos, o CONTRATANTE efetuará o pagamento do serviço prestado de construção do “SITE” da seguinte forma:<br>
+- O CONTRATANTE efetuará o pagamento do serviço da seguinte forma:<br>
 <p class="espaco">
 {% for item_da_proposta in proposta_base.pagamento_set.all %}
 
@@ -120,13 +93,7 @@ Para os serviços de construção, manutenção e inclusão do “SITE”, objet
 <hr>
 <strong>VI - DA RESCISÃO DO CONTRATUAL</strong><br>
 
-O presente contrato poderá ser rescindido pelo CONTRATANTE, sem ônus algum, quando:<br>
-- A CONTRATADA não executar os serviços solicitados pelo CONTRATANTE, e que estejam de acordo com as cláusulas deste contrato.<br>
-
-- Quando a CONTRATADA descumprir alguma das cláusulas deste contrato.
- O presente contrato poderá ser rescindido pela CONTRATADA, quando:<br>
- 
-- O CONTRATANTE na hipótese de inadimplência das obrigações ora assumidas, devendo a parte inocente notificar a parte culpada à sanar sua falha no prazo de 30 dias, após isso, não sanada a dívida, a CONTRATADA não efetuará qualquer tipo de trabalho para o CONTRATANTE.<br>
+Agindo a CONTRATANTE de forma dolosa ou culposa em face do CONTRATADO, restará facultado a estes, rescindir o contrato, substabelecendo sem reserva de iguais e se exonerando de todas obrigações.<br>
  <hr>
 <strong>VII - PRAZO DE VIGÊNCIA DO PRESENTE CONTRATO</strong><br>
 
@@ -134,7 +101,7 @@ Com exceção dos serviços de implantação do sistema o presente contrato vigo
  
 E, por assim estarem justos e contratados, firmam o presente contrato em duas vias de igual teor e forma.<br>
 <hr>
-<strong>VIII – DADOS DO SITE E ADMINISTRAÇÃO</strong><br> 
+{% comment %} <strong>VIII – DADOS DO SITE E ADMINISTRAÇÃO</strong><br> 
 
   Para acesso a administração do site segue a baixo o site, loguin e senha.<br>
 
@@ -157,21 +124,21 @@ E, por assim estarem justos e contratados, firmam o presente contrato em duas vi
 
 Poderão ser criadas até 10(dez) contas de E-mails capacidade de 5GB de armazenamentos. As criações de e-mails podem ser feitas através do e-mail principal 
 <b>contato@{{proposta_base.dominio}}</b> 
-Onde o Administrador pode adicionar, remover, bloquear, editar e excluir.<br>
+Onde o Administrador pode adicionar, remover, bloquear, editar e excluir.<br> {% endcomment %}
 
 <hr>
-<strong><i>Nota: À Wings Design, tem total Sigilo com dados do seu cliente, se de fato o cliente, esquecer a senha, ou loguin. Você pode entrar em contato conosco, através de telefone ou E-mail.
-À Wings Design, também dá treinamento para que o cliente mesmo possa está atualizando seu próprio Website.</i></strong> 
+<strong><i>FORO: . Para dirimir quaisquer controvérsias oriundas do CONTRATO, as partes elegem o foro da comarca de Osório/RS;<br>
+  Por estarem assim justos e contratados, firmam o presente instrumento, em duas vias de igual teor.</i></strong> 
 <br>
 <hr>
 <div class="validade"><i></i>Proposta válida por {{ proposta_base.get_validade_display }} dias</div><br> 
 
-<div class="infor-data">IMPERATRIZ - MA - {{ proposta_base.data|date|upper }}</div></b><br>
+<div class="infor-data">OSÓRIO - RS - {{ proposta_base.data|date|upper }}</div></b><br>
 
 <div class="separador text-center">
 _________________________________________ <br> 
-WINGS DESIGN LTDA <br> 
-<p>CNPJ: 00.000.000/0000-00</p>
+MURILO HEYDE <br> 
+<p>OAB/RS 97.756 OA/PT 33.356L</p>
 
 
 _________________________________________<br> 
