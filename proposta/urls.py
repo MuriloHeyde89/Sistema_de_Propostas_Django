@@ -13,7 +13,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
-    path('proposta.core/<int:id>/', views.proposta, name='proposta.core'), 
+    path('proposta/<int:id>/', views.proposta, name='proposta'), 
     path('admin/', admin.site.urls),
     ]
 
