@@ -11,8 +11,9 @@ from django.urls import path, re_path #url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
+
 urlpatterns = [
-    path('proposta/<int:id>/', views.proposta, name='proposta'), 
+    path('proposta.core/<int:id>/', views.proposta, name='proposta.core'), 
     path('admin/', admin.site.urls),
     ]
 
